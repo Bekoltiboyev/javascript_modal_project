@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===============Beknazar Oltiboyev================= */
+
+
+/* container style start */
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* btn style start */
+.btn{
+    width: 180px;
+    height: 40px;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    transition: all .3s ease-in;
+}
+.btn:hover{
+    color: rgb(185, 185, 185);
+    background-color: rgb(37, 37, 228);
+}
+
+/* modal style start */
+
+.modal{
+    min-width: 630px;
+    height: 260px;
+    background-color: white;
+    border-radius: 20px;
+    position: fixed;
+    z-index: 100;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/* modal header style start */
+.modal-header{
+    width: 100%;
+    height: 55px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+
+/* modal title style start */
+.modal-header h3{
+    color: red;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+/* modal close btn style start */
+.modal-header i{
+    font-size: 24px;
+}
+
+.modal-header i:hover{
+    cursor: pointer;
+}
+
+/* tanirovka style start */
+.tanirovka{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(3px);
+}
+
+
+/* heddin style */
+.heddin{
+    display: none;
+}
